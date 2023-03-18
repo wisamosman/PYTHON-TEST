@@ -1,3 +1,5 @@
 q=[1,2,3,4,5]
 if 6 in q:
-    print('no')
+    print('ok')
+if 2 in q:
+    print('welcom wesam')
