@@ -1,3 +1,3 @@
-for x in range (1,6 ):
- for y in range (1,11):
-    print(f'{x} X{y} ={x*y}')
+x=[[1,2,3,4,5,6],[7,8,9,10]]
+for y in x:
+    print(y)
