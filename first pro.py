@@ -1,3 +1,3 @@
-y='wesam'
-for letter in y:
-    print('letter')
+x = 'python'
+for letter in x :
+    print(letter)
