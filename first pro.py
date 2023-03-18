@@ -1,4 +1,4 @@
-x=[[1,2,3,4,5,6],[7,8,9,10]]
-for y in x:
-    for q in y:
-        print(q)
+for x in range (1,10):
+    if x==8
+        break
+    print(x)
