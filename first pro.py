@@ -1,6 +1,2 @@
-x = 'python'
-for letter in x :
-    print(letter)
-y='wesam'
-for letter in y:
-    print(letter)
+for x in range (1,9):
+    print(x)
