@@ -1,6 +1,4 @@
-x=2
-y=1
-q=4
-if all ([x==2,y==1,q==4]):
-    print('we')
-    
+x=0
+while x<10:
+    print(x)
+    x +=1
