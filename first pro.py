@@ -1,2 +1,5 @@
-for x in range (1,10):
-    print(x,|t,x*x)
+
+start=int(input('enter start :'))
+end=int(input('enter end :'))
+for x in range (start,end):
+    print(x,x*x)
