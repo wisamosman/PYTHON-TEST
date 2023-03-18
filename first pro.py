@@ -1,3 +1,6 @@
+
 x=5
-type(x)
-*3=
+if x >3:
+    print('wesam')
+else:
+        print('erorr')
