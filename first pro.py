@@ -1,6 +1,3 @@
+f='i love wesam'
 
-    
-    
-    
-mysum=lambda x,y: x+y
-print(mysum(3,5))
+f . lower(   )
