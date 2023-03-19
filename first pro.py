@@ -1,7 +1,6 @@
-def mysum (x,y):
-    total=x+y
-    return total
-    print(mysum(5,10))
+
     
     
     
+mysum=lambda x,y: x+y
+print(mysum(3,5))
