@@ -13,3 +13,14 @@ c1.ahmad(6,19)
 c1.ahmad(55,78)
 c1.ibo(6,7)
 c1.ibo(8,4)
+class hsso :
+     def __init__(self,name):
+         print(f'welcom {name}')
+     def ahmad (self,x,y):
+         print(x-y)
+     def ibo (self, x,y):
+         print(x+y)
+c2=hsso('wesam1' )
+c2.ahmad(44,55)
+c2.ibo(55,73)
+         
