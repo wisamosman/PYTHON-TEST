@@ -54,12 +54,20 @@ c1.Balance( )
 class bank1:
     def __init__(self,name,age):
         print(f'welcom {name}')
+        self.balance=0
+        self.name=name
+        self.age=age
+        
 
-
+    def withdrow(self,accounter):
+       self.balance -=accounter
+       print(f'your balance is : {self.balance}')
+       
 
 
 
 
 c2=bank1('samo',11)
+c2.withdrow(100)
 
         
