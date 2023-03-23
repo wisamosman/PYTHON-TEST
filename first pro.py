@@ -9,7 +9,9 @@ class bank:
         self.balance -=amount
         print(f'your balance is {self.balance}')
 
-
+    def mama(self,amount):
+       self.balance +=amount
+       print(f'your balance is :{self.balance}')
 
 
 
