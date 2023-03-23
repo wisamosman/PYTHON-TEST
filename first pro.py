@@ -7,3 +7,4 @@ class Wesam :
 
 c1=Wesam( )
 c1.ahmad(3,5)
+c1.ahmad(6,19)
