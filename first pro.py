@@ -23,4 +23,14 @@ class hsso :
 c2=hsso('wesam1' )
 c2.ahmad(44,55)
 c2.ibo(55,73)
-         
+class dado:
+    def __init__(self,name):
+        print(f'welcom {name}')
+    def ahmd(self,x,y):
+        print(x+y)
+    def mama(self,x,y):
+         print(x-y)
+c3=dado('meryam')
+c3.ahmd(87,37)
+c3.mama(73,909)
+
