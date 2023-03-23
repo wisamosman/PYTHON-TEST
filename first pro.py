@@ -1,13 +1,14 @@
-class wesam:
-    def __init__(self,name):
+class bank:
+    def creat_cleint(self,name,age):
         print(f'welcom {name}')
-    def aysho (self ,x,y):
-        print(x+y)
-    def ahhmo(self,x,y):
-        print(x-y)
-    def ibo(self,x,y):
-        print(x*y)
-c1=wesam('ayshe mohamad')
-c1.ibo(53,647)
-c1.aysho(36,773)
-c1.ahhmo(326,33)
+
+
+
+
+
+
+
+
+
+c1=bank( )
+c1.creat_cleint('wesam',23)
