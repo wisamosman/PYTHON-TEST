@@ -28,3 +28,38 @@ c1.withdrow(200)
 c1.detailes( )
 c1.mama(500)
 c1.Balance( )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class bank1:
+    def __init__(self,name,age):
+        print(f'welcom {name}')
+
+
+
+
+
+
+c2=bank1('samo',11)
+
+        
