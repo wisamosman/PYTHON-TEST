@@ -1,10 +1,13 @@
 class bank:
     def __init__(self,name, age):
         print(f'welcom {name}')
+        self.balance = 0
     
 
 
-
+    def withdrow(self,amount):
+        self.balance -=amount
+        print(f'your balance is {self.balance}')
 
 
 
@@ -12,3 +15,4 @@ class bank:
 
 
 c1=bank( 'wesam',23)
+c1.withdrow(200)
