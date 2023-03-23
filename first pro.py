@@ -1,5 +1,7 @@
 
 class Wesam :
+    def __init__(self):
+        print('welcom')
     def ahmad (self,x,y):
         print(x+y)
     def ibo (self,x,y):
