@@ -20,7 +20,11 @@ class bank:
        print(f'name : {self.name}')
        print(f'age : {self.age}')
 
+    def  Balance(self):
+        print(f'your balance is : {self.balance}')
+
 c1=bank( 'wesam', 23)
 c1.withdrow(200)
 c1.detailes( )
 c1.mama(500)
+c1.Balance( )
