@@ -18,3 +18,4 @@ class bank:
 
 c1=bank( 'wesam',23)
 c1.withdrow(200)
+c1.mama(500)
