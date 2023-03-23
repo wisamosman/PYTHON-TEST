@@ -64,10 +64,18 @@ class bank1:
        print(f'your balance is : {self.balance}')
        
 
+    def azshe(self,accounter):
+        self.balance +=accounter
+        print(f'your balance is : {self.balance}')
 
+    def datail(self):
+        print(f'your name is : {self.name}')
+        print(f'you rage is : {self.age}')
 
 
 c2=bank1('samo',11)
 c2.withdrow(100)
+c2.azshe(1000)
+c2.datail( )
 
         
