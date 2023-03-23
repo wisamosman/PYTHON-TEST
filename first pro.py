@@ -1,6 +1,7 @@
 class bank:
-    def creat_cleint(self,name,age):
+    def __init__(self,name, age):
         print(f'welcom {name}')
+    
 
 
 
@@ -10,5 +11,4 @@ class bank:
 
 
 
-c1=bank( )
-c1.creat_cleint('wesam',23)
+c1=bank( 'wesam',23)
