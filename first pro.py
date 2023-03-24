@@ -72,10 +72,13 @@ class bank1:
         print(f'your name is : {self.name}')
         print(f'you rage is : {self.age}')
 
+    def nalance(self):
+        print(f'your balance is : {self.balance}')
+
 
 c2=bank1('samo',11)
 c2.withdrow(100)
 c2.azshe(1000)
 c2.datail( )
-
+c2.nalance( )
         
