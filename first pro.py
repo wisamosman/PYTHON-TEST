@@ -81,4 +81,42 @@ c2.withdrow(100)
 c2.azshe(1000)
 c2.datail( )
 c2.nalance( )
+
+
+
+
+
+
+
+
+
+class ser:
+    def __init__(self,name,age):
+        print(f'welcom {name}')
+        balance = 0
+        self.name=name
+        self.age=age
+        
+        
+c3=ser('omer',44)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
