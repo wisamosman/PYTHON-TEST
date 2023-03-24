@@ -168,3 +168,6 @@ for y in range (20,30):
     if y==25:
         continue
     print(y)
+q=0
+while q<10:
+    print(q)
