@@ -142,10 +142,14 @@ class aha:
     def ein(self,einzahlen):
         self.balance +=einzahlen
         print(f'{self.balance}')
-        
+
+    def anta(self):
+        print(f'{self.name}')
+        print(f'{self.age}')
 c4=aha('nesro',19)
 c4.acountero(100)
 c4.ein(400)
+c4.anta( )
 
 
 
