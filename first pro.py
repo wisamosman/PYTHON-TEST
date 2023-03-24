@@ -106,12 +106,15 @@ class ser:
         self.balance +=account
         print(f'your balance is :{self.balance}')
        
-
+    def datuil(self):
+        print(f'your name is :{self.name}')
+        print(f'your age is :{self.age}')
 
 
 c3=ser('omer',44)
 c3.withdrow(300)
 c3.einzahlen(800)
+c3.datuil( )
 
 
 
