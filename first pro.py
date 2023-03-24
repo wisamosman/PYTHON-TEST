@@ -139,10 +139,13 @@ class aha:
         self.balance -=account
         print(f'{self.balance}')
 
-
+    def ein(self,einzahlen):
+        self.balance +=einzahlen
+        print(f'{self.balance}')
+        
 c4=aha('nesro',19)
 c4.acountero(100)
-
+c4.ein(400)
 
 
 
