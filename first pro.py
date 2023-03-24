@@ -159,22 +159,8 @@ c4.antai( )
 
 
 for x in range (1,19):
-    print (x)
+    if x==10:
+        break
+    print(x)
 
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
+    
