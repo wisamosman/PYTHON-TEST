@@ -171,3 +171,7 @@ for y in range (20,30):
 q=0
 while q<10:
     print(q)
+    q +=1
+    if q==3:
+        break
+    
