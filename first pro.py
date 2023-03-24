@@ -158,6 +158,10 @@ c4.anta( )
 c4.antai( )
 
 
+for x in range (1,19):
+    print (x)
+
+
 
 
 
