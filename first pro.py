@@ -111,10 +111,14 @@ class ser:
         print(f'your age is :{self.age}')
 
 
+    def balanci(self):
+        print(f'your balance is :{self.balance}')
+
 c3=ser('omer',44)
 c3.withdrow(300)
 c3.einzahlen(800)
 c3.datuil( )
+c3.balanci( )
 
 
 
@@ -123,9 +127,15 @@ c3.datuil( )
 
 
 
+class aha:
+    def __init__(self,name,age):
+        print(f'welcom {name}')
+        self.balance =0
+        self.name=name
+        self.age =age
+        
 
-
-
+c4=aha('nesro',19)
 
 
 
@@ -136,3 +146,13 @@ c3.datuil( )
 
 
         
+
+
+
+
+
+
+
+
+
+
