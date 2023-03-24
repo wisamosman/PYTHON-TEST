@@ -135,8 +135,13 @@ class aha:
         self.age =age
         
 
-c4=aha('nesro',19)
+    def acountero(self,account):
+        self.balance -=account
+        print(f'{self.balance}')
 
+
+c4=aha('nesro',19)
+c4.acountero(100)
 
 
 
