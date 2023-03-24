@@ -102,13 +102,16 @@ class ser:
         self.balance -=accounto
         print(f'your balance is : {self.balance}')
        
-      
+    def einzahlen(self,account):
+        self.balance +=account
+        print(f'your balance is :{self.balance}')
        
 
 
 
 c3=ser('omer',44)
 c3.withdrow(300)
+c3.einzahlen(800)
 
 
 
