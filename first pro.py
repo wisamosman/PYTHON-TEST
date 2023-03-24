@@ -93,12 +93,22 @@ c2.nalance( )
 class ser:
     def __init__(self,name,age):
         print(f'welcom {name}')
-        balance = 0
+        self.balance = 0
         self.name=name
         self.age=age
         
         
+    def withdrow(self,accounto):
+        self.balance -=accounto
+        print(f'your balance is : {self.balance}')
+       
+      
+       
+
+
+
 c3=ser('omer',44)
+c3.withdrow(300)
 
 
 
