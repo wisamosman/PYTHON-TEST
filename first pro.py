@@ -164,3 +164,7 @@ for x in range (1,19):
     print(x)
 
     
+for y in range (20,30):
+    if y==25:
+        continue
+    print(y)
