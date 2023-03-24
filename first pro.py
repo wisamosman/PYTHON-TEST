@@ -146,10 +146,16 @@ class aha:
     def anta(self):
         print(f'{self.name}')
         print(f'{self.age}')
+
+    def antai(self):
+        print(f'your balance is : {self.balance}')
+
+        
 c4=aha('nesro',19)
 c4.acountero(100)
 c4.ein(400)
 c4.anta( )
+c4.antai( )
 
 
 
