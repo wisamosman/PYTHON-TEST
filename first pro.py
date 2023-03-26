@@ -215,3 +215,6 @@ while u<10:
     print (u)
     u +=1
     
+g=1
+h=2
+print(g+h)
