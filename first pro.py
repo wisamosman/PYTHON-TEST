@@ -210,7 +210,8 @@ for x in range (1,20):
         continue
     print (x)
 
-    
-while u>0:
+u=0    
+while u<10:
     print (u)
+    u +=1
     
