@@ -209,4 +209,8 @@ for x in range (1,20):
     if x==10:
         continue
     print (x)
+
+    
+while u>0:
+    print (u)
     
