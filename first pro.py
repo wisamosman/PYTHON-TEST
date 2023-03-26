@@ -183,9 +183,12 @@ class roe :
         self.age=age
         self.balance=0
 
-
+    def dop(self,account):
+        self.balance -=account
+        print (f'your balance is :{self.balance}')
 
 c5=roe('wesso',38)
+c5.dop(150)
 
         
 
