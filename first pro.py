@@ -192,7 +192,7 @@ class roe :
         print(f'your balance is :{self.balance}')
 c5=roe('wesso',38)
 c5.dop(150)
-
+c5.mop(300)
         
 
     
