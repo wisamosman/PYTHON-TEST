@@ -205,3 +205,7 @@ c5.mop(300)
 c5.selfo( )        
 c5.balancio()
     
+for x in range (1,20):
+    if x==10:
+        break
+    print (x)
