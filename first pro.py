@@ -207,5 +207,6 @@ c5.balancio()
     
 for x in range (1,20):
     if x==10:
-        break
+        continue
     print (x)
+    
