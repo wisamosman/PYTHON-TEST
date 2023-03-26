@@ -196,10 +196,12 @@ class roe :
         print(f'your name is :{self.name}')
         print (f'your age is :{self.age}')
 
+    def balancio(self):
+        print(f'your balance is :{self.balance}')
         
 c5=roe('wesso',38)
 c5.dop(150)
 c5.mop(300)
 c5.selfo( )        
-
+c5.balancio()
     
