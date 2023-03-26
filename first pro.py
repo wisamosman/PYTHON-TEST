@@ -174,4 +174,19 @@ while q<10:
     q +=1
     if q==3:
         break
+
+
+class roe :
+    def __init__(self,name,age):
+        print (f'welcom {name}')
+        self.name=name
+        self.age=age
+        self.balance=0
+
+
+
+c5=roe('wesso',38)
+
+        
+
     
